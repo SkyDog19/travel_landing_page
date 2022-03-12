@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    
+}
+
+.block-start {
+    background: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url("../image/bg-start.jpg") center/cover no-repeat;
+}
+
+
+
+.block-start__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+
+.block-start__header {
+    margin: 56px 0 176px 0;
+    
+    position: relative;
+}
+
+.header-start-block__image-logo {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 600px 0 0;
+}
+.header-start-block__menu {
+    display:inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-start-block__item {
+    display: inline-block;
+    
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1.3;
+
+margin-right: 82px;
+}
+
+.header-start-block__item:hover {
+    text-shadow: 0 0 3px #fff;
+}
+
+.header-start-block__item a{
+    color: #FFFFFF;
+}
+
+.header-start-block__item:last-of-type {
+    margin-right: 189px;
+}
+
+.content-block-start__title {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 1.2;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 22px;
+}
+
+.content-block-start__text {
+    
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.3;
+color: #FFFFFF;
+margin-bottom: 59px;
+max-width: 546px;
+
+}
+.content-block-start__info-search {
+    margin-bottom: 376px;
+    position: relative;
+    
+    
+}
+.content-block-start__what-do {
+    display: inline-block;
+    
+    padding: 0 0 0 43px;
+    position: relative;
+    margin-right: 61px;
+}
+
+
+
+.content-block-start__what-do a{
+    
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.3;
+color: #FFFFFF;
+
+}
+
+.content-block-start__what-do a:hover {
+    text-shadow: 0 0 4px #fff;
+}
+
+.content-block-start__what-do a::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    top: 1px;
+}
+
+.content-block-start__what-do a::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #BFC0C5;
+    display: block;
+    margin: 22px 0 0 0;
+    
+}
+
+.content-block-start__where-go {
+    display: inline-block;
+    
+    padding: 0 0 0 43px;
+    position: relative;
+    margin-right: 60px;
+}
+
+.content-block-start__where-go a {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.3;
+color: #FFFFFF;
+}
+
+.content-block-start__where-go a:hover {
+    text-shadow: 0 0 4px #fff;
+}
+
+.content-block-start__where-go a::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    top: 1px;
+}
+
+
+.content-block-start__where-go a::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #BFC0C5;
+    display: block;
+    margin: 22px 0 0 0;
+    
+}
+
+.content-block-start__button { 
+    display: inline-block;
+
+}
+.content-block-start__button a {
+    
+    text-transform: uppercase;
+    
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+padding: 16px 39px;
+background: #1b7dff;
+position: absolute;
+top: -6px;
+}
+
+.content-block-start__button a:hover {
+    box-shadow: 0 0 8px #90b5e6;
+}
+
+.content-block-start__button a:active {
+    box-shadow: 0 0 4px #4a99ff;
+}
+
+.benefits-of-odigo {
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    background: #FFFFFF;
+box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+
+}
+
+.benefits-of-odigo_position {
+    position: relative;
+    bottom: 223px;
+    margin-bottom: -92px;
+    
+}
+
+
+.benefits-of-odigo__conteiner {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.benefits-of-odigo__title {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+margin: 93px 0 120px 0;
+color: #102746;
+}
+
+.benefits-of-odigo__column {
+    margin-bottom: 112px;
+    
+}
+
+
+.benefits-of-odigo__item {
+    display: inline-block;
+    max-width: 290px;
+    
+    
+}
+
+.benefits-of-odigo__item:not(:last-child) {
+    margin-right: 55px;
+}
+
+
+.benefits-of-odigo__image {
+    margin-bottom: 37px;
+    
+}
+.benefits-of-odigo__head {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 26px;
+}
+.benefits-of-odigo__text {
+    
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+margin-bottom: 39px;
+color: #000000;
+
+}
+
+
+.link-arrow__link {
+    
+    text-transform: uppercase;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #006DFE;
+}
+
+.link-arrow__link:hover {
+    color: red;
+}
+
+.link-arrow__link::after {
+    content: "";
+    display: inline-block;
+    background: url(../image/arrow.svg) 0 0/auto auto;
+    width: 33px;
+    height: 8px;
+    margin: 0 0 2px 26px;
+}
+
+
+
+.get-inspired_margin-bottom {
+    margin-bottom: 139px;
+}
+
+.get-inspired__conteiner {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.get-inspired__header {
+    position: relative;
+    margin-bottom: 42px;
+}
+.title-bottom-line {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+display: inline-block;
+color: #102746;
+}
+
+.title-bottom-line::after {
+    content: "";
+    display: block;
+    width: 253px;
+    height: 2.5px;
+    background: #006DFE;
+}
+
+.get-inspired__link-arrow {
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+.transporation-images-content-inspired-get {
+    margin-bottom: 131px;
+    font-size: 0;
+    
+}
+
+
+.transporation-images-content-inspired-get__item-image p {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 45px;
+    bottom: 27px;
+
+}
+
+.transporation-images-content-inspired-get__item-image {
+    position: relative;
+    background: rgb(146, 146, 235) url("../image/Mount_Fuji.png") 0 0 no-repeat;
+    display: inline-block;
+    width: 600px;
+    height: 350px;
+    
+}
+
+.transporation-images-content-inspired-get__item-image:hover {
+    box-shadow: 5px 5px 10px red;
+}
+
+
+
+.transporation-images-content-inspired-get__item-image_kyoto {
+    background: rgb(216, 48, 118) url("../image/Kyoto.png") 0 0 no-repeat;
+}
+.transporation-images-content-inspired-get__item-image_tokio-small {
+    background: blue url("../image/tokio.png") 0 0 no-repeat;
+    width: 400px;
+    height: 283px;
+}
+.transporation-images-content-inspired-get__item-image_nilgata-small {
+    background: rgb(102, 58, 58) url("../image/nigatta.png") 0 0 no-repeat;
+    width: 400px;
+    height: 283px;
+}
+.transporation-images-content-inspired-get__item-image_sapporo-small {
+    background: rgb(233, 205, 205) url("../image/sapporo.png") 0 0 no-repeat;
+    width: 400px;
+    height: 283px;
+}
+
+.image-info-content-inspired-get__head-picture {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-info-content-inspired-get__text-info {
+    display: inline-block;
+    max-width: 600px;
+    margin: 0 0 0 80px;
+    
+}
+
+.image-info-content-inspired-get__title {
+    margin: 26px 0 85px 0;
+    
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    max-width: 360px;
+
+}
+
+.image-info-content-inspired-get__text {
+    max-width: 520px;
+    margin-bottom: 58px;
+}
+
+.image-info-content-inspired-get__text p {
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #102746;
+
+}
+
+.image-info-content-inspired-get__text-info_margin {
+    margin-right: 70px;
+}
+
+.image-info-content-inspired-get__item {
+    margin-bottom: 77px;
+}
+
+.today-top-places_margin-bottom {
+    margin-bottom: 144px;
+}
+
+.today-top-places__container {
+    max-width: 1280px;
+    margin: 0 auto;
+   
+    
+}
+
+.today-top-places__title {
+    margin-bottom: 64px;
+}
+
+
+
+.today-top-places__item {
+    position: relative;
+    max-width: 392px;
+    display: inline-block;
+    
+    margin-right: 34px;
+}
+
+.today-top-places__item:nth-child(1),
+.today-top-places__item:nth-child(2),
+.today-top-places__item:nth-child(3) {
+    margin-bottom: 58px;
+}
+
+.today-top-places__item:nth-child(3),
+.today-top-places__item:nth-child(6) {
+    margin-right: 0;
+}
+
+
+.today-top-places__background-text {
+    background: url(../image/nagoya.jpg) 0 0 no-repeat;
+    width: 386px;
+    height: 377px;
+    position: relative;
+    margin-bottom: 45px;
+    
+}
+
+.today-top-places__background-text_niigata {
+    background: url(../image/niiiggata.jpg) 0 0 no-repeat;
+}
+
+.today-top-places__background-text_osaka {
+    background: url(../image/osaka.jpg) 0 0 no-repeat;
+}
+
+.today-top-places__background-text_saitama {
+    background: url(../image/saitama.jpg) 0 0 no-repeat;
+}
+
+.today-top-places__background-text_ueno {
+    background: url(../image/ueno.jpg) 0 0 no-repeat;
+}
+
+.today-top-places__background-text_shibuya {
+    background: url(../image/shibuya.jpg) 0 0 no-repeat;
+}
+
+
+.today-top-places__background-text:hover {
+    box-shadow: 5px 5px 25px red;
+}
+
+.today-top-places__text-in-bacground {
+    width: 386px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+}
+
+.today-top-places__text-in-bacground  .today-top-places__item-bacground{
+    display: inline-block;
+    
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+position: relative;
+}
+
+
+
+.today-top-places__item-bacground_margin:hover {
+    color: red;
+}
+
+.today-top-places__item-bacground_margin-like {
+    margin-right: 14px;
+    padding-right: 25px;
+}
+
+.today-top-places__item-bacground_margin-like::after {
+    content: "";
+    display: inline-block;
+    background: url("../image/like.svg") 0 0 no-repeat;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.today-top-places__item-bacground_sms-icon {
+    margin-right: 14px;
+    padding-right: 25px;
+}
+
+
+
+.today-top-places__item-bacground_sms-icon::after {
+    content: "";
+    display: inline-block;
+    background: url("../image/sms.svg") 0 0 no-repeat;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.today-top-places__text{
+    margin-bottom: 81px;
+    
+}
+
+.today-top-places__text p {
+    
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #102746;
+}
+
+.today-top-places__button {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #006DFE;
+    padding: 12px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.today-top-places__button:hover {
+    color: red;
+    background-color: rgb(7, 7, 241);
+    box-shadow: 0 0 6px 0 rgb(158, 158, 255);
+}
+
+.today-top-places__button:active {
+    color: rgb(209, 120, 120);
+    background-color: blue;
+    box-shadow: 0 0 2px 0 rgb(158, 158, 255);
+}
+
+.today-top-places__text-position {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+.video__center {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.video__conteiner {
+    height: 609px;
+    width: 1250px;
+    margin: 0 auto -2px;
+}
+
+.block-final {
+    background: #0e1d28;
+    border: 1px solid #000;
+}
+
+.block-final__conteiner {
+    max-width: 1440px;
+    margin: 119px auto 118px;
+    
+    
+}
+
+.block-final__logo-header {
+    display: inline-block;
+    margin-right: 356px;
+}
+
+.block-final__column {
+    display: inline-block;
+    border: 1px solid transparent;
+    
+    
+}
+
+.block-final__items {
+    display: inline-block;
+    max-width: 200px;
+    vertical-align: top;
+    margin-right: 139px;
+}
+.block-final__title-list {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 5px;
+}
+
+.block-final__list-item li{
+    margin-bottom: 4px;
+}
+
+.block-final__link-item {
+
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+.block-final__link-item:hover {
+    color: red;
+}
+
